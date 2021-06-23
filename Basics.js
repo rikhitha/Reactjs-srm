@@ -306,3 +306,95 @@ const valhoc=(dataval,func)=>{
 }
 let resulthoc=valhoc(10,function2);
 console.log(resulthoc);
+
+// 19
+console.log("19) Destructuring");
+let dest = ["java", "javascript", "spring", "mongodb"];
+[lang1, lang2, lang3] = dest;
+console.log(lang1 + ' ' + lang2 + ' ' + lang3);
+
+// 20
+console.log("20) sum of values using spread");
+function addfunc(...values) {
+    let sum = 0;
+    for (let i = 0; i < values.length; i++) {
+        sum += values[i];
+    }
+    return sum;
+}
+console.log(addfunc(1, 2, 3, 4, 5, 6));
+
+
+// 21
+console.log("21) spread operator with objects");
+
+let employee1 = {
+    emp1name: "Kritika",
+    emp1id: 10078,
+    emp1dept: "HR"
+};
+
+let employee2 = {
+    emp2name: "harshini",
+    emp2id: 10008,
+    emp2dept: "dxt"
+};
+
+let employees = {
+    ...employee1,
+    ...employee2
+};
+employees.emp2dept = "Marketing";
+
+console.log(employees);
+
+// 22
+
+console.log("Extending classes");
+
+
+class Profile {
+
+
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    getName() {
+
+
+        return this.name;
+    }
+
+    getAge() {
+
+
+        return this.age;
+    }
+
+    getClass() {
+        return this;
+    }
+}
+
+
+class Studnt extends Profile {
+
+
+    constructor(name, age, skill) {
+
+        super(name, age);
+        this.skill = [...skill];
+    }
+
+
+    getDetails() {
+        console.log("Name : " + this.name);
+        console.log("Age : " + this.age);
+        console.log("skills : " + this.skill);
+    }
+}
+
+var student1 = new Studnt("Ankit", 24, ['Java', 'Python', 'PHP', 'JavaScript']);
+student1.getDetails();
