@@ -1,0 +1,4 @@
+import{add,fibo,defaultcls} from './indexbarrel.js';
+
+console.log("sum is"+fibo(3));
+console.log("sum is"+add(2,5));
