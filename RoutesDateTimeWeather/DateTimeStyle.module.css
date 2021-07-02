@@ -1,0 +1,25 @@
+.datepic
+{
+  color: blue;
+  background-color:lightblue;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.user
+{
+    color:red;
+    background-color:grey;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center; 
+}
+.labell
+{
+    color:red;
+    background-color:grey;
+    padding: 1px;
+    font-family: Arial;
+    text-align: center; 
+}
