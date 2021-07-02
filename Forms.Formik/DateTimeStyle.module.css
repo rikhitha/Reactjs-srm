@@ -1,0 +1,37 @@
+.datepic
+{
+  color: blue;
+  background-color:lightblue;
+  padding: 40px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.user
+{
+    color:red;
+    background-color:grey;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center; 
+}
+.labell
+{
+    color:red;
+    background-color:grey;
+    padding: 1px;
+    font-family: Arial;
+    text-align: center; 
+}
+.formstyle
+{
+  color:rgb(14, 0, 0);
+    background-color:rgb(229, 240, 250);
+    padding: 1px;
+    font-family: Arial;
+    text-align: center; 
+}
+.error
+{
+  color: red;
+}

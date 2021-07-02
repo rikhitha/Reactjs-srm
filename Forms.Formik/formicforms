@@ -1,0 +1,48 @@
+import React from 'react';
+import { useFormik } from 'formik';
+
+import * as Yup from 'yup';
+export default function FormicValid() 
+{
+    const validationSchema=Yup.object(
+    {
+        firstname:Yup.string().required("firstname required"),
+        lastname:Yup.string().required("lastname required"),
+
+    }
+    )
+    const {handleSubmit,handleChange,values,errors}=useFormik(
+        {
+           initialValues:{
+               firstname:'',
+               lastname:''
+           },
+           validationSchema,
+           onSubmit(values)
+           {
+               console.log("form is submitted");
+               console.log(values);
+           }
+        }
+    )
+
+    return (
+        <div>
+          <form onSubmit={handleSubmit} noValidate>
+              <div>
+          <label>firstname</label>
+          <input type="text" name="firstname" onChange={handleChange} values={values.firstname} />
+          {errors.firstname ? errors.firstname:null}
+          </div>
+          <div>
+          <label>lastname</label>
+          <input type="text" name="lastname" onChange={handleChange} values={values.lastname} />
+          {errors.lastname ? errors.lastname:null}
+          </div>
+          <div>
+          <button type="submit">Submit</button>
+        </div>
+          </form>
+        </div>
+    )
+}
