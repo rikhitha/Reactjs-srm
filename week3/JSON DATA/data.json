@@ -1,0 +1,128 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "firstname": "Manasi",
+      "lastname": "Mehta",
+      "email": "mm@gmail.com",
+      "password": "hello"
+    },
+    {
+      "id": 2,
+      "firstname": "Manasi",
+      "lastname": "Mehta",
+      "email": "mm@gmail.com",
+      "password": "hello"
+    },
+    {
+      "firstname": "rikhitha",
+      "lastname": "manoj",
+      "email": "rikhithad@gmail.com",
+      "password": "123edr",
+      "id": 3
+    },
+    {
+      "firstname": "Ashwin",
+      "lastname": "Nair",
+      "email": "an@gmail.com",
+      "password": "ashwin",
+      "id": 4
+    }
+  ],
+  "students": [
+    {
+      "sname": "Rikhitha",
+      "sage": "22",
+      "sno": "Ra18322415678",
+      "sphno": "787145234",
+      "m1": "43",
+      "m2": "43",
+      "m3": "43",
+      "id": 1
+    },
+    {
+      "sname": "Veni",
+      "sage": "22",
+      "sno": "ra18652",
+      "sphno": "898987654",
+      "m1": "56",
+      "m2": "76",
+      "m3": "45",
+      "id": 2
+    },
+    {
+      "sname": "Vineeth",
+      "sage": "23",
+      "sno": "rf564",
+      "sphno": "787165454",
+      "m1": "23",
+      "m2": "54",
+      "m3": "67",
+      "id": 3
+    },
+    {
+      "sname": "Sara",
+      "sage": "26",
+      "sno": "Ra18322415678",
+      "sphno": "78718313654",
+      "m1": "21",
+      "m2": "56",
+      "m3": "87",
+      "id": 4
+    },
+    {
+      "sname": "",
+      "sage": 0,
+      "sno": "",
+      "sphno": "",
+      "m1": 0,
+      "m2": 0,
+      "m3": 0,
+      "id": 5
+    },
+    {
+      "sname": "Rikhiha",
+      "sage": "23",
+      "sno": "rf564",
+      "sphno": "5687654321",
+      "m1": "45",
+      "m2": "45",
+      "m3": "22",
+      "id": 6
+    },
+    {
+      "sname": "Rikhiha",
+      "sage": "23",
+      "sno": "rf564",
+      "sphno": "5687654321",
+      "m1": "45",
+      "m2": "45",
+      "m3": "22",
+      "id": 7
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "India"
+    },
+    {
+      "id": 2,
+      "name": "Africa"
+    },
+    {
+      "id": 3,
+      "name": "US"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Business Studies"
+    },
+    {
+      "id": 2,
+      "name": "Accounts"
+    }
+  ]
+}
