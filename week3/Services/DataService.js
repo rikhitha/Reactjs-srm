@@ -12,7 +12,7 @@ export const dataService={
     ),
     getMessage :() =>
     sub.asObservable(),
-
+ 
     clearMessage:() => 
     sub.next({})
 }
